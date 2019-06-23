@@ -15,6 +15,10 @@ Once we have the final Series, we can ordered the values in descending order (as
 
 https://www.sciencedirect.com/science/article/pii/S0950705113003560
 
+
+## Cosine Similarity
+
+
 Cosine Similarity is used to determine how similar two objects are based on certain parameters. For example, in case of movie recoomendation, we would compare the rating of two users for a particular movie and observe how similar they are.
 
 For example : user A gave 4/5 for HarryPotter 1
