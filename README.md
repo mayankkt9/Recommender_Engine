@@ -1,6 +1,5 @@
 # Recommender_Engine
 
-
 ## Correlations Implementation -
 
 In our model we’ll use the item based because we are considering that a user based system could be influenced by the change of film taste in the time by people and also because having less films than items, will fasten our calculations.
@@ -15,3 +14,19 @@ we’ll consider all the columns corresponding to the film the user already watc
 Once we have the final Series, we can ordered the values in descending order (ascending=False) and suggest the first 5 films or how many films we want.
 
 https://www.sciencedirect.com/science/article/pii/S0950705113003560
+
+Cosine Similarity is used to determine how similar two objects are based on certain parameters. For example, in case of movie recoomendation, we would compare the rating of two users for a particular movie and observe how similar they are.
+
+For example : user A gave 4/5 for HarryPotter 1
+			  user B gave 1/5 for HarryPotter 1
+			  user C gave 5/5 for HarryPotter 1
+
+Hence, user A and user C are more similar than user a and user B based on cosine similarity
+
+Cosine similarity is computed using the following formula:
+![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/1d94e5903f7936d3c131e040ef2c51b473dd071d)
+
+
+cosine similarity values range between -1 and 1, where -1 is perfectly dissimilar and 1 is perfectly similar.
+
+
