@@ -19,13 +19,14 @@ https://www.sciencedirect.com/science/article/pii/S0950705113003560
 ## Cosine Similarity
 
 
-Cosine Similarity is used to determine how similar two objects are based on certain parameters. For example, in case of movie recoomendation, we would compare the rating of two users for a particular movie and observe how similar they are.
+Cosine similarity measures the similarity between two vectors by taking the cosine of the angle the two vectors make in their dot product space. If the angle is zero, their similarity is one, the larger the angle is, the smaller their similarity. The
+measure is independent of vector length (the two vectors can even be of different length), which makes it a commonly used measure for high-dimensional spaces. For example, in case of movie recoomendation, we would compare the rating of two users for a particular movie and observe how similar they are.
 
 For example : user A gave 4/5 for HarryPotter 1
 			  user B gave 1/5 for HarryPotter 1
 			  user C gave 5/5 for HarryPotter 1
 
-Hence, user A and user C are more similar than user a and user B based on cosine similarity
+Hence, user A and user C are more similar than user A and user B based on cosine similarity
 
 Cosine similarity is computed using the following formula:
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/1d94e5903f7936d3c131e040ef2c51b473dd071d)
